@@ -104,7 +104,7 @@ class Form implements Renderable
      */
     public function action($action)
     {
-        return $this->attribute('action', $action);
+        return $this->attribute('action', url($action));
     }
 
     /**
