@@ -189,7 +189,7 @@ class Admin
             return '/'.trim($url, '/');
         }
 
-        return "http://aplicativa.net/$prefix/".trim($url, '/');
+        return "/$prefix/".trim($url, '/');
     }
 
     /**
