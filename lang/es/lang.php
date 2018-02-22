@@ -25,7 +25,7 @@ return [
     'export'       => 'Exportar',
     'batch_delete' => 'Eliminar masivamente',
     'save'         => 'Guardar',
-    'refresh'      => 'Refrescar',
+    'refresh'      => 'Actualizar',
     'order'        => 'Ordenar',
     'expand'       => 'Expandir',
     'collapse'     => 'Colapsar',
@@ -50,7 +50,7 @@ return [
     'delete_failed'    => 'Eliminación fallida',
     'update_succeeded'  => 'Actualización exitosa',
     'save_succeeded'    => 'Guardado exitoso',
-    'refresh_succeeded' => 'Refrescado exitoso',
+    'refresh_succeeded' => 'Actualización exitosa',
     'login_successful'  => 'Ingreso exitoso',
 
     'choose'       => 'Escoger',
