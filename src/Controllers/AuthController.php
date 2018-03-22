@@ -49,6 +49,12 @@ class AuthController extends Controller
         if (Auth::guard('admin')->attempt($credentials)) {
             admin_toastr(trans('admin::lang.login_successful'));
 
+            $user = DB::table('admin_users')
+                   ->where('username',  $credentials['username'])
+                   ->first();
+
+            session(['id' => $user->id]);
+
             return redirect()->intended(config('admin.prefix'));
         }
 
