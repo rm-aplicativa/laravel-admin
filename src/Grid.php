@@ -649,7 +649,7 @@ class Grid
 
         $input = array_merge($input, [Exporter::$queryName => true]);
 
-        return $this->resource().'?'.http_build_query($input);
+        return url($this->resource().'?'.http_build_query($input));
     }
 
     /**
