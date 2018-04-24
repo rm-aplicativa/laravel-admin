@@ -18,6 +18,11 @@ return [
     'logo-mini' => '<b>La</b>',
 
     /*
+     * A custom image to use a logo.
+     */
+    'logo-image' => null,
+
+    /*
      * Laravel-admin url prefix.
      */
     'prefix' => 'admin',
